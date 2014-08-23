@@ -1,0 +1,35 @@
+body {
+    background: #2c3e50;
+}
+
+/* Memory Game board */
+#memory-game-board {
+    margin: 40px auto;
+    padding: 24px;
+    width: 800px;
+}
+
+/* Cards */
+#memory-game-board > .card {
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    width: 72px;
+    height: 100px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #2980b9;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 44px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+#memory-game-board > .card.front-side {
+    background: #fff;
+    color: #2980b9;
+}
